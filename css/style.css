@@ -48,3 +48,11 @@ body{
 .main-header-link:hover {
     text-decoration: underline;
 }
+
+.trending-link:hover {
+    color: red !important;
+}
+
+.text-bordo {
+    color: #800000;
+}
