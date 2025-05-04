@@ -95,3 +95,11 @@ h5 {
     margin-top: 4px;
     margin-bottom: 16px;
 }
+
+.btn-outline-bordo {
+    background-color: white;
+    color: #800000;
+    border: 0px solid white;
+    font-weight: bold;
+    padding: 2rem 30rem;
+}
