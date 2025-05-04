@@ -58,6 +58,10 @@ body{
     color: #800000;
 }
 
+.bg-bordo {
+    background-color: #800000;
+}
+
 .article-link:hover {
     color: #800000 !important;
 }
@@ -79,4 +83,8 @@ h5 {
     word-break: break-word;
     white-space: normal;
     max-width: 100%;
+}
+
+.recommended-link:hover {
+    color: #800000 !important;
 }
