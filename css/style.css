@@ -1,0 +1,50 @@
+body{
+    padding-top: 30px;
+}
+
+.btn-bordo:hover {
+    background-color: red;
+    color: white;
+}
+
+.btn-bordo {
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-bordo:hover {
+    background-color: red;
+    color: white;
+}
+
+.navbar-border {
+    border-bottom: 1px solid black;
+}
+
+#scrolled-navbar {
+    display: none;
+}
+
+.weather-icon {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.main-header-date {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.main-header-link {
+    font-size: 0.8rem;
+    color: gray;
+    text-decoration: none;
+}
+
+.main-header-link:hover {
+    text-decoration: underline;
+}
