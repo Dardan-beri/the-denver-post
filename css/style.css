@@ -1,8 +1,4 @@
-.btn-bordo:hover {
-    background-color: red;
-    color: white;
-}
-
+/* Bottoni */
 .btn-bordo {
     background-color: #800000;
     color: white;
@@ -17,6 +13,35 @@
     color: white;
 }
 
+.btn-outline-bordo {
+    background-color: white;
+    color: #800000;
+    border: 0px solid white;
+    font-weight: bold;
+    padding: 2rem 30rem; /* Verifica se questo valore è davvero necessario */
+}
+
+/* Colori personalizzati */
+.text-bordo {
+    color: #800000;
+}
+
+.bg-bordo {
+    background-color: #800000;
+}
+
+.hr-bordo {
+    border: none;
+    border-top: 3px solid #800000;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+hr.border-bordo {
+    border-color: #800000;
+}
+
+/* Navbar */
 .navbar-border {
     border-bottom: 1px solid black;
 }
@@ -25,12 +50,14 @@
     display: none;
 }
 
+/* Icone meteo */
 .weather-icon {
     height: 40px;
     width: auto;
     object-fit: contain;
 }
 
+/* Header */
 .main-header-date {
     font-size: 0.9rem;
     color: gray;
@@ -46,29 +73,30 @@
     text-decoration: underline;
 }
 
-.trending-link:hover {
-    color: red !important;
-}
-
-.text-bordo {
-    color: #800000;
-}
-
-.bg-bordo {
-    background-color: #800000;
-}
-
-.article-link:hover {
-    color: #800000 !important;
-}
-
-.article-link {
+/* Link comuni con stesso stile */
+.trending-link,
+.article-link,
+.recommended-link,
+.section-title,
+.section-title-hover {
+    color: gray;
+    text-decoration: none;
     display: inline-block;
     white-space: normal;
     word-break: break-word;
     max-width: 100%;
 }
 
+.trending-link:hover,
+.article-link:hover,
+.recommended-link:hover,
+.section-title:hover,
+.section-title-hover:hover {
+    color: #800000 !important;
+    text-decoration: underline;
+}
+
+/* Titoli */
 h5 {
     white-space: normal;
     word-break: break-word;
@@ -81,41 +109,7 @@ h5 {
     max-width: 100%;
 }
 
-.recommended-link:hover {
-    color: #800000 !important;
-}
-
-.section-title:hover {
-    color: #800000 !important;
-}
-
-.hr-bordo {
-    border: none;
-    border-top: 3px solid #800000;
-    margin-top: 4px;
-    margin-bottom: 16px;
-}
-
-.btn-outline-bordo {
-    background-color: white;
-    color: #800000;
-    border: 0px solid white;
-    font-weight: bold;
-    padding: 2rem 30rem;
-}
-
-.section-title-hover:hover {
-    color: #800000 !important;
-}
-
-hr.border-bordo {
-    border-color: #800000;
-}
-
-.section-title-hover:hover {
-    color: #800000 !important;
-}
-
+/* Carousel */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: #333;
