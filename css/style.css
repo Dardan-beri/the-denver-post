@@ -17,7 +17,7 @@
     color: #800000;
     border: 0px solid white;
     font-weight: bold;
-    padding: 2rem 30rem;
+    padding: 2rem 3rem;
 }
 
 .top-menu-item{
@@ -240,8 +240,42 @@ h5 {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: var(--bs-bordo, #800000); /* Usa la variabile Bootstrap se disponibile */
+    background-color: var(--bs-bordo, #800000);
     color: white;
     font-weight: bold;
-    margin-right: 0.5rem; /* Spaziatura a destra */
+    margin-right: 0.5rem; 
+}
+
+@media (max-width: 768px) {
+    
+    .carousel-control-prev.custom-carousel-arrow,
+    .carousel-control-next.custom-carousel-arrow {
+        display: none;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .container-fluid .container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        padding-bottom: 10px;
+    }
+    
+    .recommended-number {
+        width: 20px;
+        height: 20px;
+        font-size: 0.7rem;
+    }
+    .recommended-link {
+        font-size: 0.9rem !important;
+    }
+    
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
