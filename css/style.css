@@ -71,7 +71,7 @@ hr.border-bordo {
 
 .main-header-link {
     font-size: 0.8rem;
-    color: gray;
+    color: black;
     text-decoration: none;
 }
 
@@ -169,11 +169,6 @@ h5 {
     transition: color 0.2s;
 }
 
-.footer-link:hover {
-    color: #800000 !important;
-    text-decoration: underline !important;
-}
-
 .footer-link-bold {
     font-weight: bold !important;
     color: #000 !important;
@@ -184,7 +179,7 @@ h5 {
 }
 
 .footer-bottom-link {
-    color: #6c757d !important;
+    color: #333 !important;
     font-size: 0.85rem !important;
     text-decoration: none !important;
     margin-right: 12px;
@@ -192,8 +187,7 @@ h5 {
 }
 
 .footer-bottom-link:hover {
-    text-decoration: underline !important;
-    color: #800000 !important;
+    color: #000 !important;
 }
 
 .footer-header {
@@ -259,7 +253,23 @@ h5 {
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
+
+    .h4 { font-size: 1.4rem; }
+    .h5 { font-size: 1.2rem; }
+    .fs-5 { font-size: 1.1rem; }
+    
+    .col-12.mb-4:not(:last-child) {
+        margin-bottom: 3rem !important;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .col-12 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
     .carousel-control-prev.custom-carousel-arrow,
     .carousel-control-next.custom-carousel-arrow {
         display: none;
@@ -289,6 +299,10 @@ h5 {
     body, html {
         width: 100%;
         overflow-x: hidden;
+    }
+
+    p, a{
+        font-size: 2rem !important;
     }
 }
 
@@ -324,9 +338,7 @@ h5 {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-}
 
-@media (max-width: 991px) {
     .container, 
     .container-fluid {
         padding-left: 0 !important;

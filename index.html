@@ -43,7 +43,7 @@
                 <div class="d-flex align-items-start gap-2">
                     <button class="btn btn-bordo px-3 py-1">Subscribe</button>
                     <button class="btn btn-bordo px-3 py-1">Log in</button>
-                    <button class="btn btn-link text-dark">
+                    <button class="btn btn-link text-dark" aria-label="Search"> 
                         <i class="bi bi-search fs-5"></i>
                     </button>
                 </div>
@@ -88,7 +88,7 @@
                 <div class="d-flex align-items-center gap-2">
                     <button class="btn btn-bordo px-3 py-1">Subscribe</button>
                     <button class="btn btn-bordo px-3 py-1">Log in</button>
-                    <button class="btn btn-link text-dark">
+                    <button class="btn btn-link text-dark" aria-label="Search">
                         <i class="bi bi-search fs-5"></i>
                     </button>
                 </div>
@@ -126,7 +126,7 @@
     </div>
 
     <!-- Contenuti pagina -->
-    <div class="main-content-container container-fluid px-0 px-lg-3">
+    <div class="main-content-container container-fluid">
 
         <!-- TODO: Fai scomparire Sezione Trending --> 
         <div class="container-fluid container-lg d-none d-md-block">
@@ -336,100 +336,95 @@
 
         <!-- Sezione con 3 colonne -->
         <div class="container-fluid container-lg mt-5">
-            <div class="row">
-                <!-- Colonna 1 -->
-                <div class="col-md-4 mb-4">
-                    <!-- Titolo sezione -->
-                    <h6 class="text-uppercase fw-bold">
-                        <a href="#" class="text-dark text-decoration-none section-title ">
-                            POLITICS <span class="text-bordo">&gt;</span>
+            <div class="container mt-5">
+                <div class="row">
+                    <!-- Colonna 1 -->
+                    <div class="col-4 mb-4">
+                        <h3 class="text-uppercase fw-bold">
+                            <a href="#" class="text-dark text-decoration-none">
+                                POLITICS <span class="text-bordo">&gt;</span>
+                            </a>
+                        </h3>
+                        <hr class="border-3 border-bordo opacity-100 mb-4">
+                        <img src="https://placehold.co/600x300" alt="Politics article" class="img-fluid w-100 mb-3">
+                        <a href="#" class="fw-bold text-dark text-decoration-none d-block mb-2 h4">
+                            Government unveils new policy reform
                         </a>
-                    </h6>
-
-                    <!-- Immagine -->
-                    <img src="https://placehold.co/600x300" alt="Politics article" class="img-fluid mb-2">
-
-                    <!-- Titolo articolo -->
-                    <a href="#" class="fw-bold text-dark text-decoration-none article-link d-block mb-1">
-                        Government unveils new policy reform
-                    </a>
-
-                    <!-- Descrizione -->
-                    <p class="text-secondary small">
-                        A new comprehensive reform package is being introduced by the government aiming to tackle inflation and promote sustainability across sectors.
-                    </p>
-
-                    <!-- Spazio bianco -->
-                    <div class="my-3"></div>
-
-                    <!-- Link correlati -->
-                    <a href="#" class="d-block fw-bold text-dark text-decoration-none article-link mb-2">
-                        Parliament debates tax changes
-                    </a>
-                    <hr class="text-muted my-1">
-                    <a href="#" class="d-block fw-bold text-dark text-decoration-none article-link mb-2">
-                        Opposition outlines budget alternative
-                    </a>
-                    <hr class="text-muted my-1">
-                    <a href="#" class="d-block fw-bold text-dark text-decoration-none article-link mb-2">
-                        Analysts weigh in on new policy
-                    </a>
-                </div>
-
-                <!-- Colonna 2 -->
-                <div class="col-md-4 mb-4">
-                    <h6 class="text-uppercase fw-bold">
-                        <a href="#" class="text-dark text-decoration-none section-title">
-                            TECHNOLOGY <span class="text-bordo">&gt;</span>
+                        <p class="text-secondary mb-4 fs-5">
+                            A new comprehensive reform package is being introduced by the government aiming to tackle inflation and promote sustainability across sectors.
+                        </p>
+                        <a href="#" class="d-block fw-bold text-dark text-decoration-none mb-2 h5">
+                            Parliament debates tax changes
                         </a>
-                    </h6>
-                    <img src="https://placehold.co/600x350" alt="Tech article" class="img-fluid mb-2">
-                    <a href="#" class="fw-bold text-dark text-decoration-none article-link d-block mb-1">
-                        AI breakthrough transforms industries
-                    </a>
-                    <p class="text-secondary small">
-                        Researchers have announced a leap in artificial intelligence development with potential to impact healthcare, finance, and beyond.
-                    </p>
-                    <div class="my-3"></div>
-                    <a href="#" class="d-block fw-bold text-dark text-decoration-none article-link mb-2">
-                        Startups race to integrate AI tools
-                    </a>
-                    <hr class="text-muted my-1">
-                    <a href="#" class="d-block fw-bold text-dark text-decoration-none article-link mb-2">
-                        Global summit focuses on ethics
-                    </a>
-                    <hr class="text-muted my-1">
-                    <a href="#" class="d-block fw-bold text-dark text-decoration-none article-link mb-2">
-                        Tech giants unveil latest gadgets
-                    </a>
-                </div>
-
-                <!-- Colonna 3 -->
-                <div class="col-md-4 mb-4">
-                    <h6 class="text-uppercase fw-bold">
-                        <a href="#" class="text-dark text-decoration-none section-title">
-                            CULTURE <span class="text-bordo">&gt;</span>
+                        <hr class="text-muted my-1">
+                        <a href="#" class="d-block fw-bold text-dark text-decoration-none mb-2 h5">
+                            Opposition outlines budget alternative
                         </a>
-                    </h6>
-                    <img src="https://placehold.co/600x250" alt="Culture article" class="img-fluid mb-2">
-                    <a href="#" class="fw-bold text-dark text-decoration-none article-link d-block mb-1">
-                        Art festival returns after hiatus
-                    </a>
-                    <p class="text-secondary small">
-                        The long-awaited cultural event brings artists from around the world, celebrating creativity with live performances and workshops.
-                    </p>
-                    <div class="my-3"></div>
-                    <a href="#" class="d-block fw-bold text-dark text-decoration-none article-link mb-2">
-                        Film awards highlight diversity
-                    </a>
-                    <hr class="text-muted my-1">
-                    <a href="#" class="d-block fw-bold text-dark text-decoration-none article-link mb-2">
-                        Exhibitions spotlight emerging talent
-                    </a>
-                    <hr class="text-muted my-1">
-                    <a href="#" class="d-block fw-bold text-dark text-decoration-none article-link mb-2">
-                        Theater makes digital comeback
-                    </a>
+                        <hr class="text-muted my-1">
+                        <a href="#" class="d-block fw-bold text-dark text-decoration-none mb-2 h5">
+                            Analysts weigh in on new policy
+                        </a>
+                    </div>
+
+                    <!-- Colonna 2 -->
+                    <div class="col-4 mb-4">
+                        <h3 class="text-uppercase fw-bold">
+                            <a href="#" class="text-dark text-decoration-none">
+                                TECHNOLOGY <span class="text-bordo">&gt;</span>
+                            </a>
+                        </h3>
+                        <hr class="border-3 border-bordo opacity-100 mb-4">
+                        
+                        <img src="https://placehold.co/600x350" alt="Tech article" class="img-fluid w-100 mb-3">
+                        <a href="#" class="fw-bold text-dark text-decoration-none d-block mb-2 h4">
+                            AI breakthrough transforms industries
+                        </a>
+                        <p class="text-secondary mb-4 fs-5">
+                            Researchers have announced a leap in artificial intelligence development with potential to impact healthcare, finance, and beyond.
+                        </p>
+                        
+                        <a href="#" class="d-block fw-bold text-dark text-decoration-none mb-2 h5">
+                            Startups race to integrate AI tools
+                        </a>
+                        <hr class="text-muted my-1">
+                        <a href="#" class="d-block fw-bold text-dark text-decoration-none mb-2 h5">
+                            Global summit focuses on ethics
+                        </a>
+                        <hr class="text-muted my-1">
+                        <a href="#" class="d-block fw-bold text-dark text-decoration-none mb-2 h5">
+                            Tech giants unveil latest gadgets
+                        </a>
+                    </div>
+
+                    <!-- Colonna 3 -->
+                    <div class="col-4 mb-4">
+                        <h3 class="text-uppercase fw-bold">
+                            <a href="#" class="text-dark text-decoration-none">
+                                CULTURE <span class="text-bordo">&gt;</span>
+                            </a>
+                        </h3>
+                        <hr class="border-3 border-bordo opacity-100 mb-4">
+                        
+                        <img src="https://placehold.co/600x250" alt="Culture article" class="img-fluid w-100 mb-3">
+                        <a href="#" class="fw-bold text-dark text-decoration-none d-block mb-2 h4">
+                            Art festival returns after hiatus
+                        </a>
+                        <p class="text-secondary mb-4 fs-5">
+                            The long-awaited cultural event brings artists from around the world, celebrating creativity with live performances and workshops.
+                        </p>
+                        
+                        <a href="#" class="d-block fw-bold text-dark text-decoration-none mb-2 h5">
+                            Film awards highlight diversity
+                        </a>
+                        <hr class="text-muted my-1">
+                        <a href="#" class="d-block fw-bold text-dark text-decoration-none mb-2 h5">
+                            Exhibitions spotlight emerging talent
+                        </a>
+                        <hr class="text-muted my-1">
+                        <a href="#" class="d-block fw-bold text-dark text-decoration-none mb-2 h5">
+                            Theater makes digital comeback
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -811,22 +806,22 @@
                         <div class="carousel-item active">
                             <div class="row g-2">
                                 <div class="col-6 col-md-2">
-                                    <img src="https://placehold.co/300x200?text=Event+1" class="img-fluid rounded">
+                                    <img src="https://placehold.co/300x200?text=Event+1" class="img-fluid rounded" alt="Carousel Image 1">
                                 </div>
                                 <div class="col-6 col-md-2">
-                                    <img src="https://placehold.co/300x200?text=Event+2" class="img-fluid rounded">
+                                    <img src="https://placehold.co/300x200?text=Event+2" class="img-fluid rounded" alt="Carousel Image 2">
                                 </div>
                                 <div class="col-6 col-md-2">
-                                    <img src="https://placehold.co/300x200?text=Event+3" class="img-fluid rounded">
+                                    <img src="https://placehold.co/300x200?text=Event+3" class="img-fluid rounded" alt="Carousel Image 3">
                                 </div>
                                 <div class="col-6 col-md-2">
-                                    <img src="https://placehold.co/300x200?text=Event+4" class="img-fluid rounded">
+                                    <img src="https://placehold.co/300x200?text=Event+4" class="img-fluid rounded" alt="Carousel Image 4">
                                 </div>
                                 <div class="col-6 col-md-2">
-                                    <img src="https://placehold.co/300x200?text=Event+5" class="img-fluid rounded">
+                                    <img src="https://placehold.co/300x200?text=Event+5" class="img-fluid rounded" alt="Carousel Image 5">
                                 </div>
                                 <div class="col-6 col-md-2">
-                                    <img src="https://placehold.co/300x200?text=Event+6" class="img-fluid rounded">
+                                    <img src="https://placehold.co/300x200?text=Event+6" class="img-fluid rounded" alt="Carousel Image 6">
                                 </div>
                             </div>
                         </div>
@@ -835,10 +830,10 @@
                         <div class="carousel-item">
                             <div class="row g-2">
                                 <div class="col-6 col-md-2">
-                                    <img src="https://placehold.co/300x200?text=Event+7" class="img-fluid rounded">
+                                    <img src="https://placehold.co/300x200?text=Event+7" class="img-fluid rounded" alt="Carousel Image 7">
                                 </div>
                                 <div class="col-6 col-md-2">
-                                    <img src="https://placehold.co/300x200?text=Event+8" class="img-fluid rounded">
+                                    <img src="https://placehold.co/300x200?text=Event+8" class="img-fluid rounded" alt="Carousel Image 8">
                                 </div>
                             </div>
                         </div>
