@@ -149,3 +149,75 @@ h5 {
     line-height: 1;
     color: black !important;
 }
+
+.hr-black-thin {
+    border: none;
+    border-top: 2px solid black;
+    margin: 8px 0;
+}
+
+.footer-link {
+    color: #333 !important;
+    text-decoration: none !important;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 8px;
+    transition: color 0.2s;
+}
+
+.footer-link:hover {
+    color: #800000 !important;
+    text-decoration: underline !important;
+}
+
+.footer-link-bold {
+    font-weight: bold !important;
+    color: #000 !important;
+}
+
+.bg-secondary-subtle {
+    background-color: #f8f9fa !important;
+}
+
+.footer-bottom-link {
+    color: #6c757d !important;
+    font-size: 0.85rem !important;
+    text-decoration: none !important;
+    margin-right: 12px;
+    white-space: nowrap;
+}
+
+.footer-bottom-link:hover {
+    text-decoration: underline !important;
+    color: #800000 !important;
+}
+
+.footer-header {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    padding: 0 15px;
+}
+
+.footer-top-line {
+    border-top: 2px solid black;
+    margin-top: 5px;
+    padding-top: 15px;
+}
+
+.subscribe-btn-full {
+    width: 100%;
+    margin-top: 15px;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
