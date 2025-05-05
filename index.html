@@ -13,12 +13,10 @@
 </head>
 <body>
 
-    <!-- NAVBAR GRANDE IN CIMA -->
-    <header id="main-header" class="bg-white pt-3 pb-2">
+    <!-- NAVBAR PRINCIPALE -->
+    <header id="main-header" class="bg-white pt-3 pb-2 d-none d-lg-block">
         <div class="container-fluid">
             <div class="d-flex justify-content-between align-items-start flex-wrap">
-
-                <!-- SINISTRA: menu + meteo -->
                 <div class="d-flex flex-column">
                     <button class="btn btn-link text-dark text-decoration-none p-0 mb-2">
                         &#9776; All Selections
@@ -49,41 +47,72 @@
                         <i class="bi bi-search fs-5"></i>
                     </button>
                 </div>
-
             </div>
         </div>
     </header>
 
-    <!-- NAVBAR COMPATTA FISSA IN ALTO -->
-    <nav id="scrolled-navbar" class="navbar navbar-expand-lg bg-white navbar-border fixed-top">
-        <div class="container-fluid d-flex justify-content-between align-items-center">
-            <!-- Sinistra -->
+    <!-- NAVBAR MOBILE (visibile solo su mobile) -->
+    <nav id="mobile-navbar" class="navbar bg-white d-lg-none border-dark border-bottom border-1">
+        <div class="container-fluid">
+            <button class="btn btn-link text-dark text-decoration-none">
+                &#9776;
+            </button>
+            
+            <a href="index.html" class="text-dark text-decoration-none mx-auto">
+                <h1 class="fw-bold mb-0 page-title">The Denver Post</h1>
+            </a>
+            
             <div class="d-flex align-items-center">
-                <button class="btn btn-link text-dark text-decoration-none">
-                    &#9776; All Selections
-                </button>
-            </div>
-
-            <!-- CENTRO: logo grande -->
-            <div class="flex-grow-1 text-center">
-                <a href="index.html" class="text-dark text-decoration-none">
-                    <h1 class="display-4 fw-bold mb-0">The Denver Post</h1>
-                </a>
-            </div>
-
-            <!-- Destra -->
-            <div class="d-flex align-items-center gap-2">
-                <button class="btn btn-bordo px-3 py-1">Subscribe</button>
-                <button class="btn btn-bordo px-3 py-1">Log in</button>
-                <button class="btn btn-link text-dark">
-                    <i class="bi bi-search fs-5"></i>
-                </button>
+                <i class="bi bi-person mobile-menu-icon"></i>
+                <i class="bi bi-chevron-down mobile-menu-icon"></i>
+                <i class="bi bi-search mobile-menu-icon"></i>
             </div>
         </div>
     </nav>
 
-    <!-- Menu sotto la navbar -->
-    <div class="border-bottom border-black py-2">
+    <!-- NAVBAR STICKY (per scorrimento) -->
+    <nav id="scrolled-navbar" class="navbar navbar-expand-lg bg-white navbar-border fixed-top">
+        <div class="container-fluid">
+            <!-- Versione desktop -->
+            <div class="d-none d-lg-flex justify-content-between align-items-center w-100">
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-link text-dark text-decoration-none">
+                        &#9776; All Selections
+                    </button>
+                </div>
+                <div class="flex-grow-1 text-center">
+                    <a href="index.html" class="text-dark text-decoration-none">
+                        <h1 class="display-4 fw-bold mb-0">The Denver Post</h1>
+                    </a>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button class="btn btn-bordo px-3 py-1">Subscribe</button>
+                    <button class="btn btn-bordo px-3 py-1">Log in</button>
+                    <button class="btn btn-link text-dark">
+                        <i class="bi bi-search fs-5"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Versione mobile -->
+            <div class="d-flex d-lg-none justify-content-between align-items-center w-100">
+                <button class="btn btn-link text-dark text-decoration-none">
+                    &#9776;
+                </button>
+                <a href="index.html" class="text-dark text-decoration-none mx-auto">
+                    <h1 class="fw-bold mb-0 page-title">The Denver Post</h1>
+                </a>
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-person mobile-menu-icon"></i>
+                    <i class="bi bi-chevron-down mobile-menu-icon"></i>
+                    <i class="bi bi-search mobile-menu-icon"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MENU SECONDARIO (solo desktop) -->
+    <div class="border-bottom border-black py-2 d-none d-lg-block">
         <div class="container d-flex flex-wrap justify-content-center gap-3 fw-bold text-black">
             <a href="#" class="top-menu-item">News</a>
             <a href="#" class="top-menu-item">Sports</a>

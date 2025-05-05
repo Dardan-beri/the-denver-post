@@ -20,14 +20,14 @@
     padding: 2rem 3rem;
 }
 
-.top-menu-item{
-    color:#000;
+.top-menu-item {
+    color: #000;
     text-decoration: none;
     font-weight: bold;
 }
 
-.top-menu-item:hover{
-    color:#dd0000;
+.top-menu-item:hover {
+    color: #dd0000;
     text-decoration: underline;
 }
 
@@ -246,6 +246,14 @@ h5 {
     margin-right: 0.5rem; 
 }
 
+.page-title{
+    font-size: 4rem;
+}
+
+.mobile-menu-icon{
+    font-size: 2rem;
+}
+
 @media (max-width: 768px) {
     
     .carousel-control-prev.custom-carousel-arrow,
@@ -277,5 +285,33 @@ h5 {
     body, html {
         width: 100%;
         overflow-x: hidden;
+    }
+}
+
+@media (max-width: 992px) {
+
+    #mobile-navbar,
+    #scrolled-navbar .d-flex.d-lg-none {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #mobile-navbar .btn,
+    #scrolled-navbar .btn {
+        font-size: 2.5rem;
+    }
+
+    #scrolled-navbar .h1 {
+        font-size: 1.25rem;
+    }
+    
+    #mobile-navbar .bi, 
+    #scrolled-navbar .bi {
+        font-size: 2rem;
+    }
+    
+    .main-header-link, 
+    .weather-icon {
+        display: none !important;
     }
 }
