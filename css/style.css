@@ -260,7 +260,6 @@ h5 {
 }
 
 @media (max-width: 768px) {
-    
     .carousel-control-prev.custom-carousel-arrow,
     .carousel-control-next.custom-carousel-arrow {
         display: none;
