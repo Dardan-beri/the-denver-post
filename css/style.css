@@ -254,6 +254,11 @@ h5 {
     font-size: 2rem;
 }
 
+.main-content-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
 @media (max-width: 768px) {
     
     .carousel-control-prev.custom-carousel-arrow,
@@ -313,5 +318,30 @@ h5 {
     .main-header-link, 
     .weather-icon {
         display: none !important;
+    }
+
+    .main-content-container {
+        max-width: 1400px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .container, 
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .container > .row,
+    .container-fluid > .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .col-md-6, .col-md-3, .col-lg-7, .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }

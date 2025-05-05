@@ -126,142 +126,146 @@
     </div>
 
     <!-- Contenuti pagina -->
-    <div class="container my-3">
+    <div class="main-content-container container-fluid px-0 px-lg-3">
 
         <!-- Sezione Trending -->
-        <div class="d-none d-md-flex flex-wrap align-items-center gap-3">
-            <span class="text-bordo fw-bold">TRENDING:</span>
-            <a href="#" class="text-secondary text-decoration-none trending-link">Avs' brutal Game 7 loss</a>
-            <a href="#" class="text-secondary text-decoration-none trending-link">Nuggets dominate Clippers</a>
-            <a href="#" class="text-secondary text-decoration-none trending-link">The birds are coming 🐦</a>
+        <div class="container-fluid container-lg d-none d-md-block">
+            <div class="d-flex flex-wrap align-items-center gap-3">
+                <span class="text-bordo fw-bold">TRENDING:</span>
+                <a href="#" class="text-secondary text-decoration-none trending-link">Avs' brutal Game 7 loss</a>
+                <a href="#" class="text-secondary text-decoration-none trending-link">Nuggets dominate Clippers</a>
+                <a href="#" class="text-secondary text-decoration-none trending-link">The birds are coming 🐦</a>
+            </div>
         </div>
 
         <!-- Sezione Articoli + Latest Headlines -->
-        <div class="row mt-5 flex-column flex-lg-row">
+        <div class="container-fluid container-lg mt-5">
+            <div class="row flex-column flex-lg-row">
 
-            <!-- Colonna SINISTRA: Articoli -->
-            <div class="col-lg-9">
-                <!-- Articolo principale -->
-                <div class="row mb-4 border-bottom pb-3">
-                    <div class="col-md-5">
-                        <h2>
-                            <a href="#" class="text-dark fw-bold text-decoration-none article-link">
-                                Colorado snowpack below average heading into spring runoff
-                            </a>
-                        </h2>
-                        <p class="text-secondary small">
-                            The spring melt season begins with less snow than usual in many parts of the state, raising concerns for water supply and drought conditions.
-                        </p>
+                <!-- Colonna SINISTRA: Articoli -->
+                <div class="col-lg-9">
+                    <!-- Articolo principale -->
+                    <div class="row mb-4 border-bottom pb-3">
+                        <div class="col-md-5">
+                            <h2>
+                                <a href="#" class="text-dark fw-bold text-decoration-none article-link">
+                                    Colorado snowpack below average heading into spring runoff
+                                </a>
+                            </h2>
+                            <p class="text-secondary small">
+                                The spring melt season begins with less snow than usual in many parts of the state, raising concerns for water supply and drought conditions.
+                            </p>
+                        </div>
+                        <div class="col-md-7">
+                            <img src="https://placehold.co/600x400" alt="Main article image" class="img-fluid">
+                        </div>
                     </div>
-                    <div class="col-md-7">
-                        <img src="https://placehold.co/600x400" alt="Main article image" class="img-fluid">
+    
+                    <!-- Secondari: prima riga -->
+                    <div class="row mb-4">
+                        <div class="col-md-6 mb-4">
+                            <img src="https://placehold.co/600x400" alt="Article image" class="img-fluid w-100 mb-2">
+                            <h5 class="secondary-title">
+                                <a href="#" class="text-dark fw-bold text-decoration-none article-link">
+                                    Denver housing market cools after rapid rise
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <img src="https://placehold.co/600x400" alt="Article image" class="img-fluid w-100 mb-2">
+                            <h5 class="secondary-title">
+                                <a href="#" class="text-dark fw-bold text-decoration-none article-link">
+                                    CU Boulder announces tuition freeze for 2025
+                                </a>
+                            </h5>
+                        </div>
                     </div>
-                </div>
-
-                <!-- Secondari: prima riga -->
-                <div class="row mb-4">
-                    <div class="col-md-6 mb-4">
-                        <img src="https://placehold.co/600x400" alt="Article image" class="img-fluid w-100 mb-2">
-                        <h5 class="secondary-title">
-                            <a href="#" class="text-dark fw-bold text-decoration-none article-link">
-                                Denver housing market cools after rapid rise
-                            </a>
-                        </h5>
+    
+                    <!-- Secondari: seconda riga -->
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <img src="https://placehold.co/600x400" alt="Article image" class="img-fluid w-100 mb-2">
+                            <h5 class="secondary-title">
+                                <a href="#" class="text-dark fw-bold text-decoration-none article-link">
+                                    Avalanche fans react to Game 7 defeat
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <img src="https://placehold.co/600x400" alt="Article image" class="img-fluid w-100 mb-2">
+                            <h5 class="secondary-title">
+                                <a href="#" class="text-dark fw-bold text-decoration-none article-link">
+                                    Colorado River compact under review by states
+                                </a>
+                            </h5>
+                        </div>
                     </div>
-                    <div class="col-md-6 mb-4">
-                        <img src="https://placehold.co/600x400" alt="Article image" class="img-fluid w-100 mb-2">
-                        <h5 class="secondary-title">
-                            <a href="#" class="text-dark fw-bold text-decoration-none article-link">
-                                CU Boulder announces tuition freeze for 2025
-                            </a>
-                        </h5>
+    
+                </div>
+    
+                <!-- Colonna DESTRA: Latest Headlines -->
+                <div class="col-lg-3 mt-5 mt-lg-0">
+                    <h5 class="text-black">LATEST HEADLINES</h5>
+                    <hr class="border-3 border-bordo opacity-100 mb-4">
+    
+                    <!-- Lista articoli recenti -->
+                    <div class="mb-2 border-bottom pb-2">
+                        <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
+                            Mikko Rantanen’s hat trick dooms Avalanche
+                        </a>
+                        <span class="text-secondary small ms-1">9 hours ago</span>
                     </div>
-                </div>
-
-                <!-- Secondari: seconda riga -->
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <img src="https://placehold.co/600x400" alt="Article image" class="img-fluid w-100 mb-2">
-                        <h5 class="secondary-title">
-                            <a href="#" class="text-dark fw-bold text-decoration-none article-link">
-                                Avalanche fans react to Game 7 defeat
-                            </a>
-                        </h5>
+                    <div class="mb-2 border-bottom pb-2">
+                        <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
+                            Denver schools consider later start times
+                        </a>
+                        <span class="text-secondary small ms-1">12 hours ago</span>
                     </div>
-                    <div class="col-md-6 mb-4">
-                        <img src="https://placehold.co/600x400" alt="Article image" class="img-fluid w-100 mb-2">
-                        <h5 class="secondary-title">
-                            <a href="#" class="text-dark fw-bold text-decoration-none article-link">
-                                Colorado River compact under review by states
-                            </a>
-                        </h5>
+                    <div class="mb-2 border-bottom pb-2">
+                        <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
+                            Local artist wins national award
+                        </a>
+                        <span class="text-secondary small ms-1">14 hours ago</span>
                     </div>
-                </div>
-
-            </div>
-
-            <!-- Colonna DESTRA: Latest Headlines -->
-            <div class="col-lg-3 mt-5 mt-lg-0">
-                <h5 class="text-black">LATEST HEADLINES</h5>
-                <hr class="border-3 border-bordo opacity-100 mb-4">
-
-                <!-- Lista articoli recenti -->
-                <div class="mb-2 border-bottom pb-2">
-                    <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
-                        Mikko Rantanen’s hat trick dooms Avalanche
-                    </a>
-                    <span class="text-secondary small ms-1">9 hours ago</span>
-                </div>
-                <div class="mb-2 border-bottom pb-2">
-                    <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
-                        Denver schools consider later start times
-                    </a>
-                    <span class="text-secondary small ms-1">12 hours ago</span>
-                </div>
-                <div class="mb-2 border-bottom pb-2">
-                    <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
-                        Local artist wins national award
-                    </a>
-                    <span class="text-secondary small ms-1">14 hours ago</span>
-                </div>
-                <div class="mb-2 border-bottom pb-2">
-                    <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
-                        Boulder approves new traffic laws
-                    </a>
-                    <span class="text-secondary small ms-1">15 hours ago</span>
-                </div>
-                <div class="mb-2 border-bottom pb-2">
-                    <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
-                        Colorado wildfires under control
-                    </a>
-                    <span class="text-secondary small ms-1">18 hours ago</span>
-                </div>
-                <div class="mb-2 border-bottom pb-2">
-                    <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
-                        Senate candidates hold debate in Denver
-                    </a>
-                    <span class="text-secondary small ms-1">20 hours ago</span>
-                </div>
-                <div class="mb-2 pb-2">
-                    <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
-                        Tech company moves HQ to Colorado
-                    </a>
-                    <span class="text-secondary small ms-1">1 day ago</span>
-                </div>
-
-
-                <!-- Blocco iscrizione -->
-                <div class="bg-dark-subtle text-center py-4 mt-4" style="height: 6.5em;">
-                    <a href="#" class="text-dark fw-bold text-decoration-none d-block mb-2">
-                        Sign up for Newsletters and Alerts
-                    </a>
-                    <button class="btn btn-bordo">Sign Up</button>
+                    <div class="mb-2 border-bottom pb-2">
+                        <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
+                            Boulder approves new traffic laws
+                        </a>
+                        <span class="text-secondary small ms-1">15 hours ago</span>
+                    </div>
+                    <div class="mb-2 border-bottom pb-2">
+                        <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
+                            Colorado wildfires under control
+                        </a>
+                        <span class="text-secondary small ms-1">18 hours ago</span>
+                    </div>
+                    <div class="mb-2 border-bottom pb-2">
+                        <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
+                            Senate candidates hold debate in Denver
+                        </a>
+                        <span class="text-secondary small ms-1">20 hours ago</span>
+                    </div>
+                    <div class="mb-2 pb-2">
+                        <a href="#" class="text-dark fw-bold text-decoration-none article-link d-inline">
+                            Tech company moves HQ to Colorado
+                        </a>
+                        <span class="text-secondary small ms-1">1 day ago</span>
+                    </div>
+    
+    
+                    <!-- Blocco iscrizione -->
+                    <div class="bg-dark-subtle text-center py-4 mt-4" style="height: 6.5em;">
+                        <a href="#" class="text-dark fw-bold text-decoration-none d-block mb-2">
+                            Sign up for Newsletters and Alerts
+                        </a>
+                        <button class="btn btn-bordo">Sign Up</button>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- RECOMMENDED FOR YOU -->
-        <div class="mt-5">
+        <div class="container-fluid container-lg mt-5">
             <!-- Titolo -->
             <h5 class="text-bordo fw-bold">RECOMMENDED FOR YOU</h5>
             <hr class="border-3 border-bordo opacity-100 mb-4">
@@ -331,7 +335,7 @@
         </div>
 
         <!-- Sezione con 3 colonne -->
-        <div class="container mt-5">
+        <div class="container-fluid container-lg mt-5">
             <div class="row">
                 <!-- Colonna 1 -->
                 <div class="col-md-4 mb-4">
@@ -431,7 +435,7 @@
         </div>
 
         <!-- Sezione Photos -->
-        <div class="container my-5">
+        <div class="container-fluid container-lg my-5">
 
             <!-- Titolo -->
             <h5 class="text-uppercase fw-bold mb-0">
@@ -511,7 +515,7 @@
         </div>
 
         <!-- Sezione Colorado News -->
-        <div class="mb-5">
+        <div class="container-fluid container-lg mb-5">
             <h3 class="d-flex align-items-center">
                 <a href="#" class="text-dark text-decoration-none section-title-hover">COLORADO NEWS</a>
                 <span class="ms-2 text-bordo">&gt;</span>
@@ -546,7 +550,7 @@
         </div>
 
         <!-- OUTDOORS -->
-        <div class="mb-5">
+        <div class="container-fluid container-lg mb-5">
             <h3 class="d-flex align-items-center">
                 <a href="#" class="text-dark text-decoration-none section-title-hover">OUTDOORS</a>
                 <span class="ms-2 text-bordo">&gt;</span>
@@ -576,7 +580,7 @@
         </div>
 
         <!-- NATIONAL NEWS -->
-        <div class="mb-5">
+        <div class="container-fluid container-lg mb-5">
             <h3 class="d-flex align-items-center">
                 <a href="#" class="text-dark text-decoration-none section-title-hover">NATIONAL NEWS</a>
                 <span class="ms-2 text-bordo">&gt;</span>
@@ -606,7 +610,7 @@
         </div>
         
         <!-- Sezione OPINION -->
-        <div class="mb-5">
+        <div class="container-fluid container-lg mb-5">
             <h3 class="d-flex align-items-center">
                 <a href="#" class="text-dark text-decoration-none section-title-hover">OPINION</a>
                 <span class="ms-2 text-bordo">&gt;</span>
@@ -636,7 +640,7 @@
         </div>
 
         <!-- Sezione BUSINESS -->
-        <div class="mb-5">
+        <div class="container-fluid container-lg mb-5">
             <h3 class="d-flex align-items-center">
                 <a href="#" class="text-dark text-decoration-none section-title-hover">BUSINESS</a>
                 <span class="ms-2 text-bordo">&gt;</span>
@@ -666,7 +670,7 @@
         </div>
 
         <!-- Sezione THE KNOW -->
-        <div class="mb-5">
+        <div class="container-fluid container-lg mb-5">
             <h3 class="d-flex align-items-center">
                 <a href="#" class="text-dark text-decoration-none section-title-hover">THE KNOW</a>
                 <span class="ms-2 text-bordo">&gt;</span>
@@ -696,7 +700,7 @@
         </div>
 
         <!-- Sezione REAL ESTATE -->
-        <div class="mb-5">
+        <div class="container-fluid container-lg mb-5">
             <h3 class="d-flex align-items-center">
                 <a href="#" class="text-dark text-decoration-none section-title-hover">REAL ESTATE</a>
                 <span class="ms-2 text-bordo">&gt;</span>
@@ -726,7 +730,7 @@
         </div>
 
         <!-- Sezione TRAVEL -->
-        <div class="mb-5">
+        <div class="container-fluid container-lg mb-5">
             <h3 class="d-flex align-items-center">
                 <a href="#" class="text-dark text-decoration-none section-title-hover">TRAVEL</a>
                 <span class="ms-2 text-bordo">&gt;</span>
@@ -756,7 +760,7 @@
         </div>
 
         <!-- Sezione BEST REVIEWS -->
-        <div class="mb-5">
+        <div class="container-fluid container-lg mb-5">
             <h3 class="d-flex align-items-center">
                 <a href="#" class="text-dark text-decoration-none section-title-hover">BEST REVIEWS</a>
                 <span class="ms-2 text-bordo">&gt;</span>
@@ -786,7 +790,7 @@
         </div>
 
         <!-- Sezione Denver Events -->
-        <div class="container-fluid py-1 mt-5" style="background-color: #f5f5f5;">
+        <div class="container-fluid container-lg py-1 mt-5" style="background-color: #f5f5f5;">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <h3 class="fw-bold fs-4">Denver Events</h3>
