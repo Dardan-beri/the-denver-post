@@ -4,7 +4,7 @@ const scrolledNavbar = document.getElementById("scrolled-navbar");
 
 function handleScroll() {
     if (window.innerWidth >= 992) {
-        if (window.scrollY > mainHeader.offsetHeight) {
+        if (window.scrollY > mainHeader.offsetHeight + mainHeader.getBoundingClientRect().top -10) {
             mainHeader.classList.add('d-none');
             scrolledNavbar.classList.remove('d-none');
         } else {
