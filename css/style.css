@@ -310,6 +310,11 @@ button[aria-expanded="true"] .arrow-icon {
     cursor: pointer;
 }
 
+.event-card{
+    height: 13rem;
+    border-radius: 0%;
+}
+
 /*Dispositivi xsm e sm*/
 @media (max-width: 767.98px) {
     p{

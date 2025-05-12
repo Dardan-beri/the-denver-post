@@ -422,6 +422,7 @@
                 </div>
             </section>
 
+            <!-- TODO: Togli rombo una volta premuto -->
             <!-- Sezione Photos-->
             <section class="container px-0 px-lg-5 mt-5">
                 <header class="border-bottom border-2 border-bordo mb-3">
@@ -795,9 +796,6 @@
             </section>
 
             <!-- TODO: Fixa frecce dentro immagini -->
-            <!-- TODO: carousel non dovrebbe scorrere automaticamente -->
-            <!-- TODO: mancano link ai giorni e alle immagini -->
-            <!-- TODO: Aggiungere scritte e robe simili nelle immagini -->
             <!-- Sezione Eventi-->
             <section class="container px-0 px-md-5 mt-5">
                 <div class="bg-grey-lorem">
@@ -812,79 +810,202 @@
                     </div>
                     <div class="row">
                         <!-- Sezione large -->
-                        <div id="multiImageCarouselLg" class="carousel event-carousel slide px-5 d-none d-lg-block" data-bs-ride="carousel" aria-label="Event images gallery">
+                        <div id="multiImageCarouselLg" class="carousel event-carousel slide px-5 d-none d-lg-block" aria-label="Event images gallery" data-bs-interval="false">
                             <div class="carousel-inner">
-                                <!-- Prima slide -->
                                 <div class="carousel-item active">
-                                    <div class="row">
-                                
+                                    <div class="row gx-3 mx-1">
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+1" class="d-block w-100" alt="Image 1">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+1" class="d-block w-100" alt="Event 1">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Thu, May 7</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+2" class="d-block w-100" alt="Image 2">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+2" class="d-block w-100" alt="Event 2">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Fri, May 8</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Dolor Sit Amet Consectetur</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+3" class="d-block w-100" alt="Image 3">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+3" class="d-block w-100" alt="Event 3">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sat, May 9</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Adipiscing Elit</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Integer pulvinar, nisl a gravida mattis, augue lectus lacinia mauris, vel convallis ligula massa sed nibh.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+4" class="d-block w-100" alt="Image 4">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+4" class="d-block w-100" alt="Event 4">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sun, May 10</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Sed Do Eiusmod Tempor</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+5" class="d-block w-100" alt="Image 5">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+5" class="d-block w-100" alt="Event 5">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Mon, May 11</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Incididunt Ut</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+6" class="d-block w-100" alt="Image 6">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+6" class="d-block w-100" alt="Event 6">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Tue, May 12</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Labore Et Dolore</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
                                     </div>
                                 </div>
-                                
-                                <!-- Seconda slide -->
+                        
                                 <div class="carousel-item">
-                                    <div class="row">
-                                
+                                    <div class="row gx-3 mx-1">
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+7" class="d-block w-100" alt="Image 7">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+7" class="d-block w-100" alt="Event 7">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Wed, May 13</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Magna Aliqua Venenatis</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+8" class="d-block w-100" alt="Image 8">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+8" class="d-block w-100" alt="Event 8">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Thu, May 14</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Ut Enim Minim</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+9" class="d-block w-100" alt="Image 9">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+9" class="d-block w-100" alt="Event 9">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Fri, May 15</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Quis Nostrud Exercitation</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Integer in sapien. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+10" class="d-block w-100" alt="Image 10">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+10" class="d-block w-100" alt="Event 10">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sat, May 16</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Ullamco Laboris</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Donec venenatis vulputate lorem. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+11" class="d-block w-100" alt="Image 11">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+11" class="d-block w-100" alt="Event 11">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sun, May 17</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Nisi Ut Aliquip</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
+                        
                                         <div class="col-2">
-                                            <img src="https://placehold.co/200x150?text=img+12" class="d-block w-100" alt="Image 12">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+12" class="d-block w-100" alt="Event 12">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Mon, May 18</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Ex Ea Commodo</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Suspendisse feugiat. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                                
                                     </div>
                                 </div>
-                                                        
                             </div>
-                            
-                            <!-- Freccia sinistra -->
+                        
                             <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y ms-n4" type="button" data-bs-target="#multiImageCarouselLg" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-
-                            <!-- Freccia destra -->
+                        
                             <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y me-n4" type="button" data-bs-target="#multiImageCarouselLg" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
@@ -892,184 +1013,467 @@
                         </div>
 
                         <!-- Sezione medium -->
-                        <div id="multiImageCarouselMd" class="carousel event-carousel slide px-5 d-none d-md-block d-lg-none" data-bs-ride="carousel" aria-label="Event images gallery">
+                        <div id="multiImageCarouselMd" class="carousel event-carousel slide px-5 d-none d-md-block d-lg-none" aria-label="Event images gallery" data-bs-interval="false">
                             <div class="carousel-inner">
-
                                 <!-- Prima slide -->
                                 <div class="carousel-item active">
-                                    <div class="row">
-                            
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 1 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+1" class="d-block w-100" alt="Image 1">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+1" class="d-block w-100" alt="Event 1">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Thu, May 7</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
+                        
+                                        <!-- Card 2 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+2" class="d-block w-100" alt="Image 2">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+2" class="d-block w-100" alt="Event 2">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Fri, May 8</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
+                        
+                                        <!-- Card 3 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+3" class="d-block w-100" alt="Image 3">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+3" class="d-block w-100" alt="Event 3">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sat, May 9</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
                                     </div>
                                 </div>
-                            
+                                
                                 <!-- Seconda slide -->
                                 <div class="carousel-item">
-                                    <div class="row">
-                            
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 4 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+4" class="d-block w-100" alt="Image 4">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+4" class="d-block w-100" alt="Event 4">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sun, May 10</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
+                        
+                                        <!-- Card 5 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+5" class="d-block w-100" alt="Image 5">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+5" class="d-block w-100" alt="Event 5">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Mon, May 11</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
+                        
+                                        <!-- Card 6 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+6" class="d-block w-100" alt="Image 6">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+6" class="d-block w-100" alt="Event 6">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Tue, May 12</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
                                     </div>
                                 </div>
-                            
+                                
                                 <!-- Terza slide -->
                                 <div class="carousel-item">
-                                    <div class="row">
-                            
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 7 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+7" class="d-block w-100" alt="Image 7">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+7" class="d-block w-100" alt="Event 7">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Wed, May 13</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
+                        
+                                        <!-- Card 8 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+8" class="d-block w-100" alt="Image 8">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+8" class="d-block w-100" alt="Event 8">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Thu, May 14</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
+                        
+                                        <!-- Card 9 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+9" class="d-block w-100" alt="Image 9">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+9" class="d-block w-100" alt="Event 9">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Fri, May 15</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
                                     </div>
                                 </div>
-                            
+                                
                                 <!-- Quarta slide -->
                                 <div class="carousel-item">
-                                    <div class="row">
-                            
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 10 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+10" class="d-block w-100" alt="Image 10">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+10" class="d-block w-100" alt="Event 10">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sat, May 16</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
+                        
+                                        <!-- Card 11 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+11" class="d-block w-100" alt="Image 11">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+11" class="d-block w-100" alt="Event 11">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sun, May 17</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
+                        
+                                        <!-- Card 12 -->
                                         <div class="col-4">
-                                            <img src="https://placehold.co/200x150?text=img+12" class="d-block w-100" alt="Image 12">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+12" class="d-block w-100" alt="Event 12">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Mon, May 18</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
-                            
                                     </div>
                                 </div>
-                            
                             </div>
-                            
                             
                             <!-- Freccia sinistra -->
                             <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y ms-n4" type="button" data-bs-target="#multiImageCarouselMd" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-
+                        
                             <!-- Freccia destra -->
                             <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y me-n4" type="button" data-bs-target="#multiImageCarouselMd" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
+                        
 
                         <!-- Sezione small -->
-                        <div id="multiImageCarouselSm" class="carousel event-carousel slide px-5 d-block d-md-none" data-bs-ride="carousel" aria-label="Event images gallery">
+                        <div id="multiImageCarouselSm" class="carousel event-carousel slide px-5 d-block d-md-none" aria-label="Event images gallery" data-bs-interval="false">
                             <div class="carousel-inner">
                                 <!-- Slide 1 -->
                                 <div class="carousel-item active">
-                                    <div class="row">
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 1 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+1" class="d-block w-100" alt="Image 1">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+1" class="d-block w-100" alt="Event 1">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Thu, May 7</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Lorem Ipsum</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Dolor sit amet, consectetur.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
+                        
+                                        <!-- Card 2 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+2" class="d-block w-100" alt="Image 2">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+2" class="d-block w-100" alt="Event 2">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Fri, May 8</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Dolor Sit</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Amet, consectetur adipiscing elit sed.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                            
+                        
                                 <!-- Slide 2 -->
                                 <div class="carousel-item">
-                                    <div class="row">
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 3 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+3" class="d-block w-100" alt="Image 3">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+3" class="d-block w-100" alt="Event 3">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sat, May 9</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Consectetur Event</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Elit sed do eiusmod tempor.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
+                        
+                                        <!-- Card 4 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+4" class="d-block w-100" alt="Image 4">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+4" class="d-block w-100" alt="Event 4">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sun, May 10</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Elit Sed</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Do eiusmod tempor incididunt ut.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                            
+                        
                                 <!-- Slide 3 -->
                                 <div class="carousel-item">
-                                    <div class="row">
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 5 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+5" class="d-block w-100" alt="Image 5">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+5" class="d-block w-100" alt="Event 5">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Mon, May 11</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Tempor Incididunt</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Incididunt ut labore et dolore magna.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
+                        
+                                        <!-- Card 6 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+6" class="d-block w-100" alt="Image 6">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+6" class="d-block w-100" alt="Event 6">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Tue, May 12</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Labore Dolore</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Et dolore magna aliqua.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                            
+                        
                                 <!-- Slide 4 -->
                                 <div class="carousel-item">
-                                    <div class="row">
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 7 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+7" class="d-block w-100" alt="Image 7">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+7" class="d-block w-100" alt="Event 7">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Wed, May 13</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Ut Enim</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Ad minim veniam, quis nostrud.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
+                        
+                                        <!-- Card 8 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+8" class="d-block w-100" alt="Image 8">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+8" class="d-block w-100" alt="Event 8">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Thu, May 14</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Minim Veniam</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Quis nostrud exercitation ullamco laboris.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                            
+                        
                                 <!-- Slide 5 -->
                                 <div class="carousel-item">
-                                    <div class="row">
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 9 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+9" class="d-block w-100" alt="Image 9">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+9" class="d-block w-100" alt="Event 9">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Fri, May 15</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Exercitation Event</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Ullamco laboris nisi ut aliquip.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
+                        
+                                        <!-- Card 10 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+10" class="d-block w-100" alt="Image 10">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+10" class="d-block w-100" alt="Event 10">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sat, May 16</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Aliquip Exea</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Exea commodo consequat duis aute.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                            
+                        
                                 <!-- Slide 6 -->
                                 <div class="carousel-item">
-                                    <div class="row">
+                                    <div class="row gx-3 mx-1">
+                                        <!-- Card 11 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+11" class="d-block w-100" alt="Image 11">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+11" class="d-block w-100" alt="Event 11">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Sun, May 17</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Duis Aute</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">Irure dolor in reprehenderit in.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
+                        
+                                        <!-- Card 12 -->
                                         <div class="col-6">
-                                            <img src="https://placehold.co/200x150?text=img+12" class="d-block w-100" alt="Image 12">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="card border-0 event-card">
+                                                    <div class="position-relative">
+                                                        <img src="https://placehold.co/200x200?text=Event+12" class="d-block w-100" alt="Event 12">
+                                                        <p class="position-absolute top-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-1 py-0 small fw-light">Mon, May 18</p>
+                                                    </div>
+                                                    <div class="card-body p-2 my-0 py-0">
+                                                        <h6 class="card-title mb-1">Reprehenderit Est</h6>
+                                                        <p class="card-text small mb-0 fw-light p-0 text-truncate">In voluptate velit esse cillum.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
-                            
+                        
                             <!-- Freccia sinistra -->
                             <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y ms-n4" type="button" data-bs-target="#multiImageCarouselSm" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-
+                        
                             <!-- Freccia destra -->
                             <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y me-n4" type="button" data-bs-target="#multiImageCarouselSm" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
