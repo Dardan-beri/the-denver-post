@@ -37,6 +37,18 @@ h1{
     height: 3rem;
 }
 
+.digital-replica-link{
+    text-decoration: none !important;
+    color: black !important;
+    font-weight: lighter !important;
+    font-size: .875rem;
+}
+
+.digital-replica-link:hover{
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
 .page-title{
     font-size: 3rem;
     font-weight: bold;
