@@ -16,6 +16,10 @@ h1{
     font-weight: bold;
 }
 
+.bg-bordo{
+    background-color: #880000 !important;
+}
+
 .border-bordo{
     border-color: #880000 !important;
 }
