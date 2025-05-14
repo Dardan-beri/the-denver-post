@@ -29,3 +29,8 @@ window.addEventListener('scroll', handleScroll);
 window.addEventListener('resize', handleResize);
 
 handleResize();
+
+document.querySelector('.btn-div').addEventListener('click', function() {
+    const target = document.querySelector('#diamond-btn-target');
+    target.classList.add('d-none');
+});
