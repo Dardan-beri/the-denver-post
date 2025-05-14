@@ -15,9 +15,6 @@
 
 <body class="mt-2">
 
-    <!-- TODO: Metti link a tutte immagini che lo hanno -->
-
-    <!-- TODO: Fare lente e burger menu funzionanti -->
     <!-- Navbar -->
     <!-- HEADER DESKTOP -->
     <header id="main-header" class="bg-white d-none d-lg-block p-0 px-md-5 border-bottom border-1 border-dark">
@@ -548,7 +545,6 @@
             </div>
         </section>
 
-        <!-- TODO: Togli rombo una volta premuto -->
         <!-- Sezione Photos-->
         <section class="container px-0 px-lg-5 mt-5">
             <header class="border-bottom border-2 border-bordo mb-3">
@@ -742,12 +738,10 @@
 
                             <article class="col-6 col-md-4 col-lg-3 mb-5">
                                 <div class="row">
-                                    <a href="#"><img src="https://placehold.co/300x200?text=Art" class="img-fluid"
-                                            alt="Art"></a>
+                                    <a href="#"><img src="https://placehold.co/300x200?text=Art" class="img-fluid" alt="Art"></a>
                                 </div>
                                 <div class="row">
-                                    <a href="#" class="article-link fw-bold">Duis
-                                        aute irure dolor in</a>
+                                    <a href="#" class="article-link fw-bold">Duis aute irure dolor in</a>
                                 </div>
                             </article>
 
@@ -797,18 +791,15 @@
                         </div>
                     </div>
 
-                    <div class="text-center mt-2">
-                        <div class="text-center mt-2 hr-with-diamond">
-                            <hr>
-                            <button class="diamond-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#more-articles" aria-expanded="false" aria-controls="more-articles"
-                                aria-label="Show more photos"></button>
-                        </div>
+                    <div class="btn-div" type="button" data-bs-toggle="collapse" data-bs-target="#more-articles, #diamond-btn-target" aria-expanded="false" aria-controls="more-articles">
+                        <div class="text-center mt-2" id="diamond-btn-target">
+                            <div class="text-center mt-2 hr-with-diamond" >
+                                <hr>
+                                <button class="diamond-button" type="button"></button>
+                            </div>
 
-                        <button class="show-more-photos-btn mt-3" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#more-articles" aria-expanded="false" aria-controls="more-articles">
-                            SHOW MORE PHOTOS
-                        </button>
+                            <button class="show-more-photos-btn mt-3" type="button">SHOW MORE PHOTOS</button>
+                        </div>
                     </div>
                 </div>
 
