@@ -315,6 +315,10 @@ button[aria-expanded="true"] .arrow-icon {
     width: 5rem;
 }
 
+.btn-div{
+    display: block;
+}
+
 /*Dispositivi xsm e sm*/
 @media (max-width: 767.98px) {
     p{
