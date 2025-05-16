@@ -319,6 +319,10 @@ button[aria-expanded="true"] .arrow-icon {
     display: block;
 }
 
+.text-transparent{
+    color: transparent;
+}
+
 /*Dispositivi xsm e sm*/
 @media (max-width: 767.98px) {
     p{
